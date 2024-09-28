@@ -287,6 +287,22 @@ footer .copyrights {
     justify-content: space-around;
 }
 
+#contactForm {
+    background-color: #ffffff;
+padding: 50px;
+margin-bottom: 90px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding-bottom: 30px;
+}
+
+
+
+.photo{
+    padding: 70px;
+}
+
 #countdown {
     display: flex;
     justify-content: center;
@@ -309,7 +325,7 @@ footer .copyrights {
     margin-top: 5px;
 }
 
-#contactForm {
+#Form {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 8px;
@@ -344,10 +360,10 @@ textarea {
 button {
     width: 100%;
     padding: 12px; /* Increased button padding */
-    background: linear-gradient(to right, #ffa500, #ff6347);
+    background: linear-gradient(to right, #b8b2ad, #b8b2ad);
     border: none;
     border-radius: 4px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px; /* Increased font size */
     cursor: pointer;
 }
@@ -396,7 +412,7 @@ button:hover {
         font-size: 1rem;
     }
 
-    #contactForm {
+    #Form {
         width: 90%;
         max-width: 300px;
     }
